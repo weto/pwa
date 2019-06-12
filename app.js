@@ -145,6 +145,8 @@ Experiencia de Notificação
 #############################*/
 let isSubscribed = false;
 
+//https://web-push-codelab.glitch.me/
+//gerar key publica
 const applicationServerPublicKey = 'BAoIqZTGEkPzpW9Ek973nVW5GK36zRwrtDQ_0DQNduCpvmfqGxRVtrRpdDDuufGmcH_sbWueUWnFhToQaF1eIrc';
 const pushButton = document.getElementById('butPush');
 

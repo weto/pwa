@@ -58,7 +58,7 @@ self.addEventListener('push', function(event) {
     console.log('[Service Worker] Notificação recebida.');
     console.log(`[Service Worker] O conteúdo da notificação é: "${event.data.text()}"`);
  
-    const title = 'Viagem - Marcos';
+    const title = 'Viagem - Wellington';
     const options = {
         body: event.data.text(),
         icon: 'images/icons/128.png',

@@ -1,17 +1,17 @@
 {
-    "name": "pwa-professor",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-      "body-parser": "^1.19.0",
-      "compression": "^1.7.4",
-      "express": "^4.17.1",
-      "path": "^0.12.7"
-    },
-    "author": "",
-    "license": "ISC"
-  }
+  "name": "pwa-professor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

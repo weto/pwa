@@ -1,11 +1,16 @@
-var express = require('express')
-var app = express()
-var port = 3000
+const express = require('express');
+const bodyParser = require('body-parser');
+const routes = require('./app/routes');
+const app = express();
+var compression = require('compression');
 
-var server = app.listen(port, function() {
-    console.log("1.0.0");
-	console.log("PWA no ar");
-	console.log("No agoraaa");
+const port = process.env.PORT || 8000;
+
+app.use(compression());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('./'));
+
+routes(app);
+app.listen(port, () => {
+    console.log('We are live on ' + port);
 });
-
-module.exports = app;

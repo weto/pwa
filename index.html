@@ -123,6 +123,7 @@
                     navigator.serviceWorker.register('service-worker.js').then(reg => {
                         console.log("Service Worker registrado om sucesso!!")
                         swRegistration = reg
+                        initialiseUI()
                     })
                 })
             }

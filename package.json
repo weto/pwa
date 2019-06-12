@@ -1,8 +1,7 @@
 {
   "name": "pwa-professor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +12,15 @@
     "path": "^0.12.7"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weto/pwa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weto/pwa/issues"
+  },
+  "homepage": "https://github.com/weto/pwa#readme",
+  "description": ""
 }

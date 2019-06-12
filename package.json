@@ -1,13 +1,23 @@
 {
-    "name": "aulas_node",
+    "name": "produto",
     "version": "1.0.0",
-    "description": "# Aula 2 - 09/04/2019 PROCESS",
-    "main": "todoList.js",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node index.js"
     },
-    "author": "",
+    "author": "weto.jc@gmail.com",
     "license": "ISC",
     "dependencies": {
-    }
+      "axios": "^0.18.0",
+      "body-parser": "^1.18.2",
+      "express": "^4.16.2",
+      "express-validator": "^5.0.1",
+      "http-status": "^1.0.1",
+      "i18n": "^0.8.3",
+      "request": "^2.88.0",
+      "store": "^2.0.12",
+      "swagger-ui-express": "^4.0.1"
+    },
+    "devDependencies": {}
   }
